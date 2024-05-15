@@ -1,0 +1,20 @@
+Light Weight Processes
+
+Created by
+	Alex Zaharia
+	Triet Luu Khoi Tran
+
+Project Description
+	This project consists of a lightweight process system that uses a round-robin scheduler to manage threads. It features functions for thread management, including creation, scheduling, and termination. This system has strong error handling and memory management capabilities.
+
+To build:
+	
+	make
+
+To run with demo programs:
+
+	./snakes
+
+	./nums
+
+	./hungry
