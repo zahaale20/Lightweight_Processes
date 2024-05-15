@@ -5,7 +5,10 @@ Created by
 	Triet Luu Khoi Tran
 
 Project Description
-	This library provides a C API for creating and managing threads using a round-robin scheduler. This scheduling method employs a queue to determine the sequence in which threads are executed. The development of this threading library involved two main stages. Initially, memory was allocated for each threads stack, which involved setting aside and configuring a designated memory area for each threads operations. The second stage was managing the transition of control between threads, which required maintaining an accurate record of each threads state, including their registers and stack pointers.
+	This library provides a C API for creating and managing threads using a round-robin scheduler. This scheduling method employs a queue to determine the sequence in which threads are 
+	executed. The development of this threading library involved two main stages. Initially, memory was allocated for each threads stack, which involved setting aside and configuring a 
+	designated memory area for each threads operations. The second stage was managing the transition of control between threads, which required maintaining an accurate record of each threads 
+	state, including their registers and stack pointers.
 To build:
 	
 	make
